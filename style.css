@@ -8,6 +8,20 @@
   padding: 2vw;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  right: 15em;
+  top: 3em;
+}
+
+.social-media a {
+  color: #1D4BF0;
+  font-size: 3em;
+}
+
 .title-name h1 {
   position: absolute;
   width: 304px;
@@ -22,7 +36,7 @@
 
 .container-img img {
   margin-top: 1.1em;
-  margin-bottom: 12vh;
+  margin-bottom: 15vh;
   max-width: 100%;
   display: flex;
   top: 43px;
