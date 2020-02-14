@@ -151,12 +151,12 @@
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    padding: 0.01vw;
+    padding: 0.1vw;
   }
 
   .social-media {
-    right: 2em;
-    top: 1em;
+    right: 5em;
+    top: 27em;
   }
 
   .social-media a {
@@ -178,6 +178,7 @@
   .container-img img {
     margin-top: 1em;
     margin-bottom: 5vh;
+    max-width: 120%;
   }
 
   .buttons-cta {
@@ -226,9 +227,9 @@
     width: 255px;
     left: 25px;
     top: 2106px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 23px;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
   }
 
   .about-location {
@@ -243,13 +244,13 @@
 
   .about-location-question {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 23px;
     margin-bottom: -0.5em;
   }
 
   .about-location-places {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 23px;
   }
 
