@@ -87,10 +87,6 @@
   background-color: #B30B67;
 }
 
-.about {
-
-}
-
 .about-title h2 {
   font-weight: 900;
   font-size: 64px;
@@ -132,10 +128,6 @@
   line-height: 35px;
 }
 
-.footer {
-
-}
-
 .footer .copyrights {
   font-weight: normal;
   font-size: 24px;
@@ -158,5 +150,116 @@
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+  .container {
+    padding: 0.01vw;
+  }
 
+  .social-media {
+    right: 2em;
+    top: 1em;
+  }
+
+  .social-media a {
+    font-size: 1.3em;
+  }
+
+  .title-name h1 {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 1em;
+    top: 0.1em;
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .container-img img {
+    margin-top: 1em;
+    margin-bottom: 5vh;
+  }
+
+  .buttons-cta {
+    width: 350px;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button-email {
+    width: 350px;
+    height: 84px;
+    margin-bottom: -1em;
+  }
+
+  .button-email a {
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0.8em;
+    border: 5px solid #48FF43;
+    box-sizing: border-box;
+  }
+
+  .button-portfolio {
+    width: 270px;
+    height: 55.61px;
+  }
+
+  .button-portfolio a {
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0.8em;
+    border: 5px solid #B30B67;
+    box-sizing: border-box;
+  }
+
+  .about-title h2 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 1vh;
+  }
+
+  .about-text {
+    width: 255px;
+    left: 25px;
+    top: 2106px;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10vh;
+  }
+
+  .about-location {
+    width: 125px;
+    height: 155px;
+    left: 25px;
+    top: 3056px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6vh;
+  }
+
+  .about-location-question {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: -0.5em;
+  }
+
+  .about-location-places {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .footer .copyrights {
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 2em;
+  }
+
+  .footer .bottom-color {
+    height: 30px;
+  }
 }
