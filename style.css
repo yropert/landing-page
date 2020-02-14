@@ -5,7 +5,7 @@
 }
 
 .container {
-  padding: 2vw;
+  padding: 1vw;
 }
 
 .social-media {
@@ -36,10 +36,17 @@
 
 .container-img img {
   margin-top: 1.1em;
-  margin-bottom: 15vh;
   max-width: 100%;
   display: flex;
   top: 43px;
+}
+
+.proposition {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15vh;
 }
 
 .buttons-cta {
@@ -155,8 +162,8 @@
   }
 
   .social-media {
-    right: 5em;
-    top: 27em;
+    right: 2em;
+    top: 7em;
   }
 
   .social-media a {
@@ -177,8 +184,23 @@
 
   .container-img img {
     margin-top: 1em;
+    max-width: 100%;
+  }
+
+  .proposition {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 80%;
     margin-bottom: 5vh;
-    max-width: 120%;
+  }
+
+  .proposition .value img {
+    max-width: 100%;
+  }
+
+  .proposition .portrait img {
+    max-width: 100%;
   }
 
   .buttons-cta {
