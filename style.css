@@ -149,12 +149,273 @@
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
+  .container {
+    padding: 0.1vw;
+  }
 
+  .social-media {
+    right: 6em;
+    top: 7em;
+  }
+
+  .social-media a {
+    font-size: 2.7em;
+  }
+
+  .title-name h1 {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 1.7em;
+    top: -0.5em;
+    font-size: 45px;
+    line-height: 50px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .container-img img {
+    margin-top: 1em;
+    max-width: 90%;
+  }
+
+  .proposition {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 75%;
+    margin-bottom: 5vh;
+  }
+
+  .proposition .value img {
+    max-width: 100%;
+  }
+
+  .proposition .portrait img {
+    max-width: 55%;
+  }
+
+  .buttons-cta {
+    position: absolute;
+    top: 47em;
+    left: 20em;
+    width: 330px;
+    height: 150px;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button-email {
+    width: 350px;
+    height: 84px;
+    margin-bottom: -1em;
+  }
+
+  .button-email a {
+    color: black;
+    font-size: 17px;
+    line-height: 16px;
+    padding: 0.8em;
+    border: 5px solid #48FF43;
+    box-sizing: border-box;
+  }
+
+  .button-portfolio {
+    width: 270px;
+    height: 55.61px;
+  }
+
+  .button-portfolio a {
+    color: black;
+    font-size: 17px;
+    line-height: 16px;
+    padding: 0.8em;
+    border: 5px solid #B30B67;
+    box-sizing: border-box;
+  }
+
+  .about-title h2 {
+    font-size: 40px;
+    line-height: 30px;
+    margin-bottom: 3vh;
+  }
+
+  .about-text {
+    width: 450px;
+    height: auto;
+    left: 25px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 2vh;
+  }
+
+  .about-location {
+    width: 125px;
+    height: 155px;
+    left: 25px;
+    top: 3056px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6vh;
+  }
+
+  .about-location-question {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: -0.5em;
+  }
+
+  .about-location-places {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .footer .copyrights {
+    font-size: 15px;
+    margin-bottom: 2em;
+  }
+
+  .footer .bottom-color {
+    height: 30px;
+  }
 }
+
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
+  .container {
+    padding: 0.1vw;
+  }
 
+  .social-media {
+    right: 3em;
+    top: 7em;
+  }
+
+  .social-media a {
+    font-size: 2.5em;
+  }
+
+  .title-name h1 {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 4em;
+    top: 0.1em;
+    font-size: 33px;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .container-img img {
+    margin-top: 1em;
+    max-width: 100%;
+  }
+
+  .proposition {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 80%;
+    margin-bottom: 5vh;
+  }
+
+  .proposition .value img {
+    max-width: 100%;
+  }
+
+  .proposition .portrait img {
+    max-width: 55%;
+  }
+
+  .buttons-cta {
+    position: absolute;
+    top: 38em;
+    left: 20em;
+    width: 320px;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button-email {
+    width: 350px;
+    height: 84px;
+    margin-bottom: -1em;
+  }
+
+  .button-email a {
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0.8em;
+    border: 5px solid #48FF43;
+    box-sizing: border-box;
+  }
+
+  .button-portfolio {
+    width: 270px;
+    height: 55.61px;
+  }
+
+  .button-portfolio a {
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0.8em;
+    border: 5px solid #B30B67;
+    box-sizing: border-box;
+  }
+
+  .about-title h2 {
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 3vh;
+  }
+
+  .about-text {
+    width: 255px;
+    left: 25px;
+    top: 2106px;
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 2vh;
+  }
+
+  .about-location {
+    width: 125px;
+    height: 155px;
+    left: 25px;
+    top: 3056px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6vh;
+  }
+
+  .about-location-question {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: -0.5em;
+  }
+
+  .about-location-places {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .footer .copyrights {
+    font-size: 12px;
+    margin-bottom: 2em;
+  }
+
+  .footer .bottom-color {
+    height: 30px;
+  }
 }
+
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
@@ -200,11 +461,14 @@
   }
 
   .proposition .portrait img {
-    max-width: 100%;
+    max-width: 55%;
   }
 
   .buttons-cta {
-    width: 350px;
+    position: absolute;
+    top: 26em;
+    left: 10em;
+    width: 200px;
     margin-bottom: 7vh;
     display: flex;
     flex-wrap: wrap;
@@ -212,13 +476,13 @@
 
   .button-email {
     width: 350px;
-    height: 84px;
+    height: 40px;
     margin-bottom: -1em;
   }
 
   .button-email a {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 16px;
     padding: 0.8em;
     border: 5px solid #48FF43;
@@ -232,7 +496,7 @@
 
   .button-portfolio a {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 16px;
     padding: 0.8em;
     border: 5px solid #B30B67;
@@ -277,7 +541,6 @@
   }
 
   .footer .copyrights {
-    font-weight: normal;
     font-size: 12px;
     margin-bottom: 2em;
   }
