@@ -434,11 +434,11 @@
   .title-name h1 {
     position: absolute;
     width: 150px;
-    height: 100px;
+    height: 80px;
     left: 1em;
     top: 0.1em;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 32px;
     display: flex;
     align-items: flex-end;
   }
