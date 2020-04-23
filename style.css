@@ -466,12 +466,17 @@
 
   .buttons-cta {
     position: absolute;
-    top: 26em;
-    left: 9.5em;
+    top: 32em;
+    left: 11.5em;
     width: 200px;
     margin-bottom: 7vh;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .buttons-cta-bis {
+    width: 200px;
+    margin-bottom: 7vh;
   }
 
   .button-email {
