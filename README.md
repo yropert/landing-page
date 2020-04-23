@@ -1,3 +1,3 @@
 # yropert.github.io
 
-Yann Ropert Freelance's Portfolio
+Yann Ropert Freelance's Landing Page
