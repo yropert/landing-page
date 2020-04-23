@@ -55,6 +55,7 @@
 }
 
 .buttons-cta-bis {
+  display: flex;
   margin-bottom: 8vh;
 }
 
