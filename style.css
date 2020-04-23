@@ -475,7 +475,8 @@
   }
 
   .buttons-cta-bis {
-    width: 200px;
+    display: flex;
+    width: 365px;
     margin-bottom: 7vh;
   }
 
