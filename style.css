@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Roboto';
+  margin: auto;
 }
 
 .container {
@@ -26,10 +27,11 @@
   position: absolute;
   width: 304px;
   height: 177px;
-  top: 67px;
+  top: 100px;
+  left: 130px;
   font-weight: 900;
-  font-size: 82px;
-  line-height: 96px;
+  font-size: 72px;
+  line-height: 80px;
   display: flex;
   align-items: flex-end;
 }
@@ -51,11 +53,16 @@
 
 .buttons-cta {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin-bottom: 10vh;
 }
 
 .buttons-cta-bis {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 8vh;
   margin-bottom: 8vh;
 }
 
@@ -128,7 +135,6 @@
 }
 
 .about-location-question {
-  margin-right: 1vw;
   font-weight: 500;
   font-size: 30px;
   line-height: 35px;
@@ -138,6 +144,10 @@
 .about-location-places {
   font-size: 30px;
   line-height: 35px;
+}
+
+.footer {
+  margin-top: 8vh;
 }
 
 .footer .copyrights {
@@ -155,7 +165,7 @@
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    padding: 0.1vw;
+    padding: 0.4vw;
   }
 
   .social-media {
@@ -167,16 +177,17 @@
     font-size: 2.7em;
   }
 
+  .title-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+  }
+
   .title-name h1 {
-    position: absolute;
     width: 200px;
     height: 150px;
-    left: 1.7em;
-    top: -0.5em;
     font-size: 45px;
     line-height: 50px;
-    display: flex;
-    align-items: flex-end;
   }
 
   .container-img img {
@@ -189,6 +200,7 @@
     flex-direction: column;
     justify-content: start;
     width: 75%;
+    padding-top: 2vh;
     margin-bottom: 5vh;
   }
 
@@ -197,27 +209,22 @@
   }
 
   .proposition .portrait img {
-    max-width: 55%;
+    display: none;
   }
 
-  .buttons-cta {
-    position: absolute;
-    top: 47em;
-    left: 20em;
-    width: 330px;
-    height: 150px;
+  .buttons-cta-bis {
     margin-bottom: 7vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .button-email {
+  .buttons-cta-bis .button-email {
     width: 350px;
     height: 84px;
-    margin-bottom: -1em;
   }
 
-  .button-email a {
+  .buttons-cta-bis .button-email a {
     color: black;
     font-size: 17px;
     line-height: 16px;
@@ -226,12 +233,12 @@
     box-sizing: border-box;
   }
 
-  .button-portfolio {
+  .buttons-cta-bis .button-portfolio {
     width: 270px;
     height: 55.61px;
   }
 
-  .button-portfolio a {
+  .buttons-cta-bis .button-portfolio a {
     color: black;
     font-size: 17px;
     line-height: 16px;
@@ -244,6 +251,8 @@
     font-size: 40px;
     line-height: 30px;
     margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
   }
 
   .about-text {
@@ -257,11 +266,11 @@
 
   .about-location {
     width: 125px;
-    height: 155px;
-    left: 25px;
+    height: 130px;
     top: 3056px;
+    padding-top: 1vh;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 6vh;
   }
 
