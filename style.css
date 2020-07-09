@@ -125,24 +125,11 @@
 }
 
 .about-location {
-  width: 900px;
-  height: 48px;
-  top: 2652px;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 12vh;
+  margin-top: 6vh;
 }
 
 .about-location-question {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 35px;
   color: #1D4BF0;
-}
-
-.about-location-places {
-  font-size: 30px;
-  line-height: 35px;
 }
 
 .footer {
@@ -153,12 +140,6 @@
   font-weight: normal;
   font-size: 24px;
   margin-bottom: 2em;
-}
-
-.footer .bottom-color {
-  background-color: #48FF43;
-  height: 44px;
-  width: 100%;
 }
 
 @media (max-width: 960px) {
@@ -289,10 +270,6 @@
     font-size: 15px;
     margin-bottom: 2em;
   }
-
-  .footer .bottom-color {
-    height: 30px;
-  }
 }
 
 @media (max-width: 720px) {
@@ -422,10 +399,6 @@
   .footer .copyrights {
     font-size: 12px;
     margin-bottom: 2em;
-  }
-
-  .footer .bottom-color {
-    height: 30px;
   }
 }
 
@@ -562,9 +535,5 @@
   .footer .copyrights {
     font-size: 12px;
     margin-bottom: 2em;
-  }
-
-  .footer .bottom-color {
-    height: 30px;
   }
 }
