@@ -5,535 +5,137 @@
   margin: auto;
 }
 
-.container {
-  padding: 1vw;
-}
-
-.social-media {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  position: fixed;
-  right: 6em;
-  top: 3em;
-}
-
-.social-media a {
-  color: #1D4BF0;
-  font-size: 3em;
-}
-
-.title-name h1 {
+.header {
   position: absolute;
-  width: 304px;
-  height: 177px;
-  top: 100px;
-  left: 130px;
+  width: 724px;
+  height: 54px;
+  left: 396px;
+  top: 59px;
+}
+
+.header .name {
+  font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 80px;
+  font-size: 48px;
+  line-height: 56px;
   display: flex;
   align-items: flex-end;
+  color: black;
 }
 
-.container-img img {
-  margin-top: 1.1em;
-  max-width: 100%;
+.header .job {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
   display: flex;
-  top: 43px;
+  align-items: flex-end;
+  color: #909090;
 }
 
-.proposition {
+.portfolio {
+  position: absolute;
+  width: 648px;
+  height: 447px;
+  left: 396px;
+  top: 154px;
+}
+
+.portfolio .item {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio .item .mission {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.portfolio .item .description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #909090;
+
+  margin-top: -0.8rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.buttons .email {
+  position: absolute;
+  width: 720px;
+  height: 224px;
+  left: 0px;
+  top: 662px;
+  background: #48FF43;
+}
+
+.buttons .email a {
+  position: absolute;
+  left: 9.24%;
+  right: 9.24%;
+  top: 16.85%;
+  bottom: 18.26%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.buttons .social-media {
+  position: absolute;
+  width: 720px;
+  height: 224px;
+  left: 720px;
+  top: 662px;
+  background: #1D4BF0;
+  display: flex;
   justify-content: center;
-  width: 100%;
-  margin-bottom: 17vh;
-}
-
-.buttons-cta {
-  display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-bottom: 10vh;
+  text-align: center;
 }
 
-.buttons-cta-bis {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 8vh;
-  margin-bottom: 8vh;
-}
+.buttons .social-media a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
 
-.button-email {
-  width: 650px;
-  height: 97px;
-}
-
-.button-email a {
-  color: black;
-  font-size: 30px;
-  line-height: 35px;
-  padding: 0.8em;
-  border: 7px solid #48FF43;
-  box-sizing: border-box;
-}
-
-.button-email a:hover {
-  text-decoration: none;
-  color: black;
-  background-color: #48FF43;
-}
-
-.button-portfolio {
-  width: 415px;
-  height: 97px;
-}
-
-.button-portfolio a {
-  color: black;
-  font-size: 30px;
-  line-height: 35px;
-  padding: 0.8em;
-  border: 7px solid #B30B67;
-  box-sizing: border-box;
-}
-
-.button-portfolio a:hover {
-  text-decoration: none;
-  color: black;
-  background-color: #B30B67;
-}
-
-.about-title h2 {
-  font-weight: 900;
-  font-size: 64px;
-  line-height: 75px;
-  color: #1D4BF0;
-  margin-bottom: 6vh;
-}
-
-.about-text {
-  width: 966px;
-  height: 920px;
-  left: 237px;
-  top: 1985px;
-  font-size: 30px;
-  line-height: 35px;
-  margin-bottom: 7vh;
-}
-
-.about-location {
-  margin-top: 6vh;
-}
-
-.about-location-question {
-  color: #1D4BF0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer {
-  margin-top: 8vh;
+  position: absolute;
+  width: 1440px;
+  height: 84px;
+  left: 0px;
+  top: 886px;
+  background: #B30B67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .footer .copyrights {
+  font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  margin-bottom: 2em;
-}
+  line-height: 28px;
+  color: #FFFFFF;
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    padding: 0.4vw;
-  }
-
-  .social-media {
-    right: 6em;
-    top: 7em;
-  }
-
-  .social-media a {
-    font-size: 2.7em;
-  }
-
-  .title-name {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1vh;
-  }
-
-  .title-name h1 {
-    width: 200px;
-    height: 150px;
-    font-size: 45px;
-    line-height: 50px;
-  }
-
-  .container-img img {
-    margin-top: 1em;
-    max-width: 90%;
-  }
-
-  .proposition {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 75%;
-    padding-top: 2vh;
-    margin-bottom: 5vh;
-  }
-
-  .proposition .value img {
-    max-width: 100%;
-  }
-
-  .proposition .portrait img {
-    display: none;
-  }
-
-  .buttons-cta-bis {
-    margin-bottom: 7vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .buttons-cta-bis .button-email {
-    width: 350px;
-    height: 84px;
-  }
-
-  .buttons-cta-bis .button-email a {
-    color: black;
-    font-size: 17px;
-    line-height: 16px;
-    padding: 0.8em;
-    border: 5px solid #48FF43;
-    box-sizing: border-box;
-  }
-
-  .buttons-cta-bis .button-portfolio {
-    width: 270px;
-    height: 55.61px;
-  }
-
-  .buttons-cta-bis .button-portfolio a {
-    color: black;
-    font-size: 17px;
-    line-height: 16px;
-    padding: 0.8em;
-    border: 5px solid #B30B67;
-    box-sizing: border-box;
-  }
-
-  .about-title h2 {
-    font-size: 40px;
-    line-height: 30px;
-    margin-bottom: 3vh;
-    display: flex;
-    justify-content: center;
-  }
-
-  .about-text {
-    width: 450px;
-    height: auto;
-    left: 25px;
-    font-size: 16px;
-    line-height: 23px;
-    margin-bottom: 2vh;
-  }
-
-  .about-location {
-    width: 125px;
-    height: 130px;
-    top: 3056px;
-    padding-top: 1vh;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 6vh;
-  }
-
-  .about-location-question {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 23px;
-    margin-bottom: -0.5em;
-  }
-
-  .about-location-places {
-    font-size: 16px;
-    line-height: 23px;
-  }
-
-  .footer .copyrights {
-    font-size: 15px;
-    margin-bottom: 2em;
-  }
-}
-
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    padding: 0.1vw;
-  }
-
-  .social-media {
-    right: 3em;
-    top: 7em;
-  }
-
-  .social-media a {
-    font-size: 2.5em;
-  }
-
-  .title-name h1 {
-    position: absolute;
-    width: 150px;
-    height: 100px;
-    left: 4em;
-    top: 0.1em;
-    font-size: 33px;
-    line-height: 40px;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .container-img img {
-    margin-top: 1em;
-    max-width: 100%;
-  }
-
-  .proposition {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 80%;
-    margin-bottom: 5vh;
-  }
-
-  .proposition .value img {
-    max-width: 100%;
-  }
-
-  .proposition .portrait img {
-    max-width: 55%;
-  }
-
-  .buttons-cta {
-    position: absolute;
-    top: 38em;
-    left: 20em;
-    width: 320px;
-    margin-bottom: 7vh;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .button-email {
-    width: 350px;
-    height: 84px;
-    margin-bottom: -1em;
-  }
-
-  .button-email a {
-    color: black;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0.8em;
-    border: 5px solid #48FF43;
-    box-sizing: border-box;
-  }
-
-  .button-portfolio {
-    width: 270px;
-    height: 55.61px;
-  }
-
-  .button-portfolio a {
-    color: black;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 0.8em;
-    border: 5px solid #B30B67;
-    box-sizing: border-box;
-  }
-
-  .about-title h2 {
-    font-size: 35px;
-    line-height: 30px;
-    margin-bottom: 3vh;
-  }
-
-  .about-text {
-    width: 255px;
-    left: 25px;
-    top: 2106px;
-    font-size: 17px;
-    line-height: 23px;
-    margin-bottom: 2vh;
-  }
-
-  .about-location {
-    width: 125px;
-    height: 155px;
-    left: 25px;
-    top: 3056px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 6vh;
-  }
-
-  .about-location-question {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 23px;
-    margin-bottom: -0.5em;
-  }
-
-  .about-location-places {
-    font-size: 17px;
-    line-height: 23px;
-  }
-
-  .footer .copyrights {
-    font-size: 12px;
-    margin-bottom: 2em;
-  }
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    padding: 0.1vw;
-  }
-
-  .social-media {
-    right: 2em;
-    top: 7em;
-  }
-
-  .social-media a {
-    font-size: 1.5em;
-  }
-
-  .title-name h1 {
-    position: absolute;
-    width: 150px;
-    height: 80px;
-    left: 1em;
-    top: 0.1em;
-    font-size: 28px;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .container-img img {
-    margin-top: 1em;
-    max-width: 100%;
-  }
-
-  .proposition {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 80%;
-    margin-bottom: 8vh;
-  }
-
-  .proposition .value img {
-    max-width: 100%;
-  }
-
-  .proposition .portrait img {
-    max-width: 50%;
-  }
-
-  .buttons-cta {
-    position: absolute;
-    top: 32em;
-    left: 11.5em;
-    width: 200px;
-    margin-bottom: 7vh;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .buttons-cta-bis {
-    display: flex;
-    width: 365px;
-    margin-bottom: 7vh;
-  }
-
-  .button-email {
-    width: 350px;
-    height: 40px;
-    margin-bottom: -1em;
-  }
-
-  .button-email a {
-    color: black;
-    font-size: 10px;
-    line-height: 16px;
-    padding: 0.8em;
-    border: 3.5px solid #48FF43;
-    box-sizing: border-box;
-  }
-
-  .button-portfolio {
-    width: 270px;
-    height: 55.61px;
-  }
-
-  .button-portfolio a {
-    color: black;
-    font-size: 10px;
-    line-height: 16px;
-    padding: 0.8em;
-    border: 3.5px solid #B30B67;
-    box-sizing: border-box;
-  }
-
-  .about-title h2 {
-    font-size: 26px;
-    line-height: 30px;
-    margin-bottom: 3vh;
-  }
-
-  .about-text {
-    width: 255px;
-    left: 25px;
-    top: 2106px;
-    font-size: 14px;
-    line-height: 23px;
-    margin-bottom: 2vh;
-  }
-
-  .about-location {
-    width: 125px;
-    height: 155px;
-    left: 25px;
-    top: 3056px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 6vh;
-  }
-
-  .about-location-question {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 23px;
-    margin-bottom: -0.5em;
-  }
-
-  .about-location-places {
-    font-size: 14px;
-    line-height: 23px;
-  }
-
-  .footer .copyrights {
-    font-size: 12px;
-    margin-bottom: 2em;
-  }
+  padding-top: 0.9rem;
 }
