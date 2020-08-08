@@ -38,7 +38,7 @@
   width: 648px;
   height: 447px;
   left: 396px;
-  top: 154px;
+  top: 134px;
 }
 
 .portfolio .item {
@@ -66,11 +66,16 @@
 
 .buttons {
   margin-top: 2rem;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-content: center;
 }
 
 .buttons .email {
   position: absolute;
-  width: 720px;
+  width: 50%;
+  max-width: 50%;
   height: 224px;
   left: 0px;
   top: 662px;
