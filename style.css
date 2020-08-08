@@ -95,7 +95,8 @@
 
 .buttons .social-media {
   position: absolute;
-  width: 720px;
+  width: 50%;
+  max-width: 50%;
   height: 224px;
   left: 720px;
   top: 662px;
@@ -119,7 +120,8 @@
 
 .footer {
   position: absolute;
-  width: 1440px;
+  width: 100%;
+  max-width: 100%;
   height: 84px;
   left: 0px;
   top: 886px;
