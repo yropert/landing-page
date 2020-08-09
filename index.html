@@ -27,58 +27,144 @@
     <meta property="fb:admins" content="Facebook numeric ID" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div>
-          <h1 class="name">YANN ROPERT <span class="job">UX/UI designer</span> </h1>
+    <div class="relative bg-white pt-16 pb-10 px-4 sm:px-6 lg:pt-24 lg:pb-16 lg:px-8">
+      <div class="relative max-w-7xl mx-auto">
+        <div class="flex justify-center pb-2">
+          <img class="h-20 w-20 rounded-full"
+            src="images/YannROPERT_portrait.jpg"
+            alt="portrait">
         </div>
-      </div>
-      <div class="portfolio">
-        <div class="item">
-          <a href="https://www.instyll.co/" target="blank">
-            <p class="mission">Instyll.co</p>
-            <p class="description">l'encyclopédie de la mode</p>
-          </a>
-          <hr>
+        <div class="text-center">
+          <h2 class="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
+            Yann Ropert
+          </h2>
+          <p class="mt-3 max-w-2xl mx-auto text-xl leading-7 text-gray-500 sm:mt-4">
+            UX/UI designer freelance basé en Bretagne, j'accompagne les porteurs de projet dans leur
+            transformation digitale et dans l'amélioration de la qualité de l'expérience perçue par les utilisateurs.
+            J'interviens principalement en amont des projets pour vous aider à tirer le meilleur parti de vos idées.
+          </p>
+          <div class="py-5 flex justify-center">
+            <span class="inline-flex rounded-md shadow-sm">
+              <a href="mailto:yannropert@gmail.com?subject=J'ai besoin d'un UX/UI designer">
+                <button type="button"
+                  class="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+                  M'écrire
+                </button>
+              </a>
+            </span>
+          </div>
         </div>
-        <div class="item">
-          <a href="https://github.com/esbo22/fridgefriends" target="blank">
-            <p class="mission">Fridge Friends</p>
-            <p class="description">ne gaspille plus la nourriture que tu ne vas pas consommer</p>
-          </a>
-          <hr>
-        </div>
-        <div class="item">
-          <a href="https://github.com/yropert/eau-courante" target="blank">
-            <p class="mission">Eau Courante</p>
-            <p class="description">la gourde en papier open-source</p>
-          </a>
-          <hr>
-        </div>
-        <div class="item">
-          <a href="https://yannropert.tumblr.com/" target="blank">
-            <p class="mission">Portfolio designer produit</p>
-            <p class="description">étudiant en design et architecture intérieure</p>
-          </a>
-        </div>
-      </div>
-      <div class="buttons">
-        <div class="email">
-          <a href="mailto:yannropert@gmail.com?subject=J'ai besoin d'un UX/UI designer">Cliquez ici pour m'envoyer un email, je réponds vite !</a>
-        </div>
-        <div class="social-media">
-          <a href="https://www.linkedin.com/in/yannropert/" target=" blank">LinkedIn</a>
-          <a href="https://github.com/yropert" target="blank">GitHub</a>
-          <a href="https://twitter.com/Yannourt" target="blank">Twitter</a>
+
+        <div class="mt-12 grid gap-6 max-w-lg mx-auto lg:grid-cols-4 lg:max-w-none">
+          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div class="flex-shrink-0">
+              <div class="bg-green py-3"></div>
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <p class="text-sm leading-5 font-medium text-blue">
+                  #Fashion #App #Marketing
+                </p>
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                    Instyll.co, l'encyclopédie de la mode
+                  </h3>
+                  <p class="mt-3 text-base leading-6 text-gray-500">
+                    Inspirations quotidiennes à partir d'un article 👠💁‍♀️ <br>
+                    L'application est actuellement en bêta-test.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div class="flex-shrink-0">
+              <div class="bg-green py-3"></div>
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <p class="text-sm leading-5 font-medium text-blue">
+                  #Food #App #Economy
+                </p>
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                    Fridge Friends
+                  </h3>
+                  <p class="mt-3 text-base leading-6 text-gray-500">
+                    L'application Fridge Friends organise pour toi le don de nourriture. <br>
+                    Au lieu de la jeter, propose à tes proches de les récupérer gratuitement !
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div class="flex-shrink-0">
+              <div class="bg-green py-3"></div>
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <p class="text-sm leading-5 font-medium text-blue">
+                  #OpenSource #Free #Design
+                </p>
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                    Eau Courante, la gourde en papier open-source
+                  </h3>
+                  <p class="mt-3 text-base leading-6 text-gray-500">
+                    Service de distribution d'eau du robinet. Ce service de
+                    proximité vise à recréer du lien social et à réduire l'impact écologique des bouteilles d'eau qui fleurissent dans les
+                    villes par temps chaud.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+            <div class="flex-shrink-0">
+              <div class="bg-green py-3"></div>
+            </div>
+            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+              <div class="flex-1">
+                <p class="text-sm leading-5 font-medium text-blue">
+                  #Portfolio
+                </p>
+                <a href="#" class="block">
+                  <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900">
+                    Découvrez mes réalisations d'étudiant
+                  </h3>
+                  <p class="mt-3 text-base leading-6 text-gray-500">
+                    Etudiant en architecture intérieure & design.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="copyrights">
-        <p>© 2020, Yann Ropert - Tous droits réservés. </p>
+
+    <div class="bg-white">
+      <div class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+        <div class="mt-8 flex justify-center">
+          <a href="https://www.linkedin.com/in/yannropert/" target="blank" class="text-2xl ml-6 text-gray-400 hover:text-gray-500">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://twitter.com/Yannourt" target="blank" class="text-2xl ml-6 text-gray-400 hover:text-gray-500">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/yropert" target="blank" class="text-2xl ml-6 text-gray-400 hover:text-gray-500">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="mt-8">
+          <p class="text-center text-base leading-6 text-gray-400">
+            &copy; 2020, Yann Ropert - Tous droits réservés.
+          </p>
+        </div>
       </div>
     </div>
   </body>

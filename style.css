@@ -1,148 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
-
-* {
-  font-family: 'Roboto';
-  margin: auto;
+.bg-red {
+  background-color: #B30B67;
 }
 
-.header {
-  position: absolute;
-  width: 724px;
-  height: 54px;
-  left: 396px;
-  top: 59px;
+.bg-blue {
+  background-color: #1D4BF0;
 }
 
-.header .name {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 56px;
-  display: flex;
-  align-items: flex-end;
-  color: black;
+.bg-green {
+  background-color: #2ECC71;
 }
 
-.header .job {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 48px;
-  line-height: 56px;
-  display: flex;
-  align-items: flex-end;
-  color: #909090;
-}
-
-.portfolio {
-  position: absolute;
-  width: 648px;
-  height: 447px;
-  left: 396px;
-  top: 120px;
-}
-
-.portfolio .item {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.portfolio .item .mission {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-}
-
-.portfolio .item .description {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #909090;
-
-  margin-top: -0.8rem;
-}
-
-.buttons {
-  margin-top: 2rem;
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  align-content: center;
-}
-
-.buttons .email {
-  position: absolute;
-  width: 50%;
-  max-width: 50%;
-  height: 224px;
-  left: 0px;
-  top: 662px;
-  background: #48FF43;
-}
-
-.buttons .email a {
-  position: absolute;
-  left: 9.24%;
-  right: 9.24%;
-  top: 16.85%;
-  bottom: 18.26%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-}
-
-.buttons .social-media {
-  position: absolute;
-  width: 50%;
-  max-width: 50%;
-  height: 224px;
-  left: 720px;
-  top: 662px;
-  background: #1D4BF0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.buttons .social-media a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.footer {
-  position: absolute;
-  width: 100%;
-  max-width: 100%;
-  height: 84px;
-  left: 0px;
-  top: 886px;
-  background: #B30B67;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.footer .copyrights {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  color: #FFFFFF;
-
-  padding-top: 0.9rem;
+.text-blue {
+  color: #1D4BF0;
 }
