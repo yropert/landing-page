@@ -10,6 +10,10 @@
   background-color: #2ECC71;
 }
 
+.border-green {
+  border: solid 1px #2ECC71;
+}
+
 .text-blue {
   color: #1D4BF0;
 }
