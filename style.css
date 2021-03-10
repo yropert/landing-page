@@ -10,8 +10,12 @@
   background-color: #2ECC71;
 }
 
-.border-green {
-  border: solid 1px #2ECC71;
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-softblue {
+  background-color: powderblue;
 }
 
 .text-blue {
