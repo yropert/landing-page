@@ -2,4 +2,4 @@
 
 ### Yann Ropert Freelance Landing Page
 
-#### UX / UI designer
+#### Product designer
